@@ -5,14 +5,6 @@ import Searchbox from '../components/Searchbox'
 import '../containers/App.css'
 import ErrorBoundry from '../components/ErrorBoundry';
 
-
-<body>
-    <p> Helloooo Changes!!!</p>
-</body>
-
-
-
-
 class App extends React.Component{
     constructor() {
         super();
@@ -45,6 +37,7 @@ class App extends React.Component{
             return(
                 <div className ='tc'>
                     <h1 className = 'f1'> RoboFriends</h1>
+                    <h2> Helloo Changes!!!</h2>
                     <Searchbox  searchange = {this.onSearchChange}/>
                     <Scroll>
                         <ErrorBoundry>
