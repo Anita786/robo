@@ -37,7 +37,7 @@ class App extends React.Component{
             return(
                 <div className ='tc'>
                     <h1 className = 'f1'> RoboFriends</h1>
-                    <h2> Helloo Changes!!!</h2>
+                    <h2> Welcome!!!!!!!!!!!!</h2>
                     <Searchbox  searchange = {this.onSearchChange}/>
                     <Scroll>
                         <ErrorBoundry>
